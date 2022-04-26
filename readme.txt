@@ -21,7 +21,7 @@ STEP 4:
 
 -------- copy past below command and hit enter -------- 
 
-create database noticee;use noticee;
+create database notice;use notice;
 create table userinfo(id int(4) primary key auto_increment,name varchar(50),email varchar(50),password varchar(50),class int(2),utype varchar(10));
 create table notice(nid int(4) primary key auto_increment,title varchar(50),content text,c1 tinyint(1),c2 tinyint(1),c3 tinyint(1),c4 tinyint(1),c5 tinyint(1),c6 tinyint(1),c7 tinyint(1),c8 tinyint(1),c9 tinyint(1),c10 tinyint(1),datetime varchar(20));
 create table comment(cid int(4) primary key auto_increment,nid int(4),uid int(4),content text);
